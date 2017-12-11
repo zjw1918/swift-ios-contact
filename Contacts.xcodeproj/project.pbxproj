@@ -8,24 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		94F90A111FDE1D17009F836D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F90A101FDE1D17009F836D /* AppDelegate.m */; };
-		94F90A141FDE1D17009F836D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F90A131FDE1D17009F836D /* ViewController.m */; };
+		94F90A141FDE1D17009F836D /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F90A131FDE1D17009F836D /* ContactsViewController.m */; };
 		94F90A171FDE1D17009F836D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F90A151FDE1D17009F836D /* Main.storyboard */; };
 		94F90A191FDE1D17009F836D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F90A181FDE1D17009F836D /* Assets.xcassets */; };
 		94F90A1C1FDE1D17009F836D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F90A1A1FDE1D17009F836D /* LaunchScreen.storyboard */; };
 		94F90A1F1FDE1D17009F836D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F90A1E1FDE1D17009F836D /* main.m */; };
+		94F90A271FDE352D009F836D /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F90A261FDE352D009F836D /* Contact.swift */; };
+		94F90A291FDE6795009F836D /* NewContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F90A281FDE6795009F836D /* NewContactViewController.swift */; };
+		94F90A2C1FDE8294009F836D /* ImageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F90A2B1FDE8294009F836D /* ImageFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		94F90A0C1FDE1D16009F836D /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F90A0F1FDE1D17009F836D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		94F90A101FDE1D17009F836D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		94F90A121FDE1D17009F836D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		94F90A131FDE1D17009F836D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		94F90A121FDE1D17009F836D /* ContactsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		94F90A131FDE1D17009F836D /* ContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
 		94F90A161FDE1D17009F836D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94F90A181FDE1D17009F836D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94F90A1B1FDE1D17009F836D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94F90A1D1FDE1D17009F836D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94F90A1E1FDE1D17009F836D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94F90A251FDE352C009F836D /* Contacts-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Contacts-Bridging-Header.h"; sourceTree = "<group>"; };
+		94F90A261FDE352D009F836D /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		94F90A281FDE6795009F836D /* NewContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactViewController.swift; sourceTree = "<group>"; };
+		94F90A2A1FDE8294009F836D /* ImageFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageFactory.h; sourceTree = "<group>"; };
+		94F90A2B1FDE8294009F836D /* ImageFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +68,18 @@
 			children = (
 				94F90A0F1FDE1D17009F836D /* AppDelegate.h */,
 				94F90A101FDE1D17009F836D /* AppDelegate.m */,
-				94F90A121FDE1D17009F836D /* ViewController.h */,
-				94F90A131FDE1D17009F836D /* ViewController.m */,
+				94F90A121FDE1D17009F836D /* ContactsViewController.h */,
+				94F90A131FDE1D17009F836D /* ContactsViewController.m */,
+				94F90A2A1FDE8294009F836D /* ImageFactory.h */,
+				94F90A2B1FDE8294009F836D /* ImageFactory.m */,
+				94F90A281FDE6795009F836D /* NewContactViewController.swift */,
+				94F90A261FDE352D009F836D /* Contact.swift */,
 				94F90A151FDE1D17009F836D /* Main.storyboard */,
 				94F90A181FDE1D17009F836D /* Assets.xcassets */,
 				94F90A1A1FDE1D17009F836D /* LaunchScreen.storyboard */,
 				94F90A1D1FDE1D17009F836D /* Info.plist */,
 				94F90A1E1FDE1D17009F836D /* main.m */,
+				94F90A251FDE352C009F836D /* Contacts-Bridging-Header.h */,
 			);
 			path = Contacts;
 			sourceTree = "<group>";
@@ -102,6 +115,7 @@
 				TargetAttributes = {
 					94F90A0B1FDE1D16009F836D = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -142,7 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94F90A141FDE1D17009F836D /* ViewController.m in Sources */,
+				94F90A2C1FDE8294009F836D /* ImageFactory.m in Sources */,
+				94F90A271FDE352D009F836D /* Contact.swift in Sources */,
+				94F90A291FDE6795009F836D /* NewContactViewController.swift in Sources */,
+				94F90A141FDE1D17009F836D /* ContactsViewController.m in Sources */,
 				94F90A1F1FDE1D17009F836D /* main.m in Sources */,
 				94F90A111FDE1D17009F836D /* AppDelegate.m in Sources */,
 			);
@@ -278,11 +295,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Contacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.zjw.Contacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Contacts/Contacts-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -291,11 +312,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Contacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.zjw.Contacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Contacts/Contacts-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
